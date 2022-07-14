@@ -9,8 +9,8 @@ from constants import screen_height, screen_width,accent_color,bg_color,screen,m
 
 
 # Game objects
-player = Player('./multimedia/Paddle.png',screen_width - 20,screen_height/2,5)
-opponent = Opponent('./multimedia/Paddle.png',20,screen_width/2,5)
+player = Player('./multimedia/mpaddle.png',screen_width - 20,screen_height/2,5)
+opponent = Opponent('./multimedia/lpaddle.png',20,screen_width/2,5)
 paddle_group = pygame.sprite.Group()
 paddle_group.add(player)
 paddle_group.add(opponent)
